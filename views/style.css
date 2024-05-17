@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(244, 219, 219, 0.607);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./snakeCover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gameCanvas{
+    background-color: #baf462;
+    border: 5px solid rgb(178, 231, 240);
+    border-radius: 10px;
+}
+#scores{
+    border: 5px solid rgb(187, 66, 66);
+    height: 50px;
+    width: 500px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(219, 219, 142);
+}
